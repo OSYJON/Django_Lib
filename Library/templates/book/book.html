@@ -1,0 +1,18 @@
+{% load static %} {% block page_content %}
+<head>
+  <link rel="stylesheet" href={% static "global.css" %} />
+</head>
+<img src={% static "gholban.jpg" %} />
+<table>
+  <tr>
+    <th>Name</th>
+    <th>ISBN</th>
+  </tr>
+  {% for book in book_list %}
+  <tr>
+    <td>{{book.book_title}}</td>
+    <td>{{book.ISBN}}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock page_content %}

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import BorrowerDetails,StudentDetails
+from .models import Student,Payment
 
-admin.site.register(BorrowerDetails)
-admin.site.register(StudentDetails)
+admin.site.register(Student)
+admin.site.register(Payment)

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+  border-radius: 7px;
+}
+
+table {
+  text-align: center;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-radius: 7px;
+}
