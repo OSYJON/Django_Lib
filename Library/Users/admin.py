@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import BorrowerDetails,StudentDetails
 
-# Register your models here.
+admin.site.register(BorrowerDetails)
+admin.site.register(StudentDetails)
